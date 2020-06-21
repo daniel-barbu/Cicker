@@ -1,0 +1,83 @@
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    /* background: url("http://www.unioncreditcorp.com/wp-content/uploads/2015/05/GVec.png"); */ alb material
+    /* background: #171717 url(http://sothatwemaybefree.com/medias/background.png) repeat left top;
+    background-attachment: fixed;
+    position: relative; */ gri cu liniute
+}
+b {
+    font-family: serif;
+}
+#mainbtn {
+    cursor: pointer;
+}
+#shop {
+    text-align: center;
+    font-family: serif;
+    font-weight: 900;
+}
+table,th,td {
+    border: 4px #4CAF50 solid;
+    /*border: 1px red solid;*/
+    border-collapse: collapse;
+    background-color: #666666;
+}
+/*#clickmebtn {
+    color: black;
+    background-color: #4CAF50;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    text-shadow: 1px 1px 3px white;
+    box-shadow: 0px 5px 1px #b3b3b3;
+    border-radius: 100px;
+    width: ;
+}*/
+button {
+    cursor: pointer;
+}
+#shop_title {
+    padding-left: 15px;
+    color: #4CAF50;
+    font-size: 18px;
+}
+.shop_details {
+    display: inline-block;
+    padding-left: 0px;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    width: 230px;
+}
+.shop_buybtn {
+    color: #4CAF50;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+}
+.shop_buybtn:disabled {
+    background-color: #B1B1B1;
+    border: 2px solid #3D8C40;
+    cursor: not-allowed;
+}
+#crit {
+    font-weight: 900;
+    color: #00cc00; /*crit green*/
+    font-family: serif;
+}
+#achv {
+    font-weight: 900;
+    color: #cc9900; /*achivement brown*/
+    font-family: serif;
+}
+#achvname {
+    font-weight: 100;
+    color: #ffd24d; /*achievement name light brown*/
+    font-style: italic;
+}
+#credit {
+    font-size: 12px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.75);
+    color: white;
+}

@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Cicker - by danimondial</title>
+		<link rel="icon" href="icon.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	</head>
+	<body>
+        <div align="center" style="border:0px solid red">
+        <b>Money: $<span id=money>0</span></b>
+        <span id=crit></span><br>
+        Money Per Second: $<span id=mps>0</span><br>
+        Money Per Click: $<span id=mpc>1</span><br>
+        Critical Click Chance: <span id=chance>1</span>%<br>
+        <img class=class1234 id=mainbtn onclick=btnpress();refresh() src="https://lh3.ggpht.com/vqKa5XeIG6W51gLV-wG_-DfX20FJxGxOw4-AoDQOJAzCqFeoED50-gabK94PFnWbHf8=w300" alt="Click Me!" title="Click Me!" width="64" height="64">
+	    <!--                                              http://i.imgur.com/Mq481Ss.png -->
+	    <!-- <button id=clickmebtn>Click<br>Me</button> -->
+	    <br>
+	    <br>
+<!-- --><table>
+        <tr>
+        <td colspan=2><b id=shop_title>+$1 MPC</b></td>
+	    </tr>
+	    <tr>
+	    <td>
+	    <span class=shop_details>Gives you 1 more dollar when you click the 'Click Me' button.</span>
+	    <button class=shop_buybtn id=buy_mpc_btn onclick=buy_mpc(); title="Not enough money!" disabled>$<span id=mpc_price>10</span> Buy</button>
+	    </td>
+	    </tr>
+	    <tr>
+        <td colspan=2><b id=shop_title>+$1 MPS</b></td>
+	    </tr>
+	    <tr>
+	    <td>
+	    <span class=shop_details id=mps_info>Gives you 1 dollar each second you are in the game.</span>
+	    <button class=shop_buybtn id=buy_mps_btn onclick=buy_mps() title="Not enough money!" disabled>$<span id=mps_price>50</span> Buy</button>
+	    </td>
+	    </tr>
+	    <tr>
+        <td colspan=2><b id=shop_title>+1% CRITICAL CLICK CHANCE</b></td>
+	    </tr>
+	    <tr>
+	    <td>
+	    <span class=shop_details>Gives you a 1% higher chance of getting a Critical Click.</span>
+	    <button class=shop_buybtn id=buy_chance_btn onclick=buy_chance() title="Not enough money!" disabled>$<span id=chance_price>1000</span> Buy</button>
+	    </td>
+	    </tr>
+<!-- --></table>
+        <span id=achv></span>
+            <span id=credit>&copy;&nbsp;2016 - danimondial
+            <br>
+            A game made by danimondial in association with danimondial and danimondial Studios.
+            </span>
+	    </div>
+	</body>
+</html>
